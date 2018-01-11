@@ -5,7 +5,14 @@ public class Assignment1 {
     public Assignment1(){
     }
 
-    public static void printAsterisk(){
+    public void printAsterisk(){
         System.out.print("*");
     }
+
+    public void printHorizontalLine(int n){
+        for (int i = 0 ; i < n ; i++){
+            System.out.print("*");
+        }
+    }
+
 }
