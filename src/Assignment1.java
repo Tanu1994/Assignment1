@@ -46,4 +46,45 @@ public class Assignment1 {
         }
     }
 
+    public void printDiamond(int n){
+        int k = 0;
+        for (int i = 1 ; i <= 2*n-1; i++){
+            for (int j = 1 ; j <= 2*n-1; j++){
+                if ((j <= n+k) && (j >= n-k)){
+                    System.out.print("*");
+                }
+                else{
+                    System.out.print(" ");
+                }
+            }
+            if (i < n) k++;
+            else k--;
+            System.out.println();
+        }
+    }
+
+    public void printDiamondWithName(int n){
+        int k = 0;
+        for (int i = 1 ; i <= 2*n-1; i++){
+            for (int j = 1 ; j <= 2*n-1; j++) {
+                if (i == n) {
+                    if (j == n - 2) {
+                        System.out.print("Andrei");
+                        break;
+                    }
+                    else System.out.print(" ");
+                } else {
+                    if ((j <= n + k) && (j >= n - k)) {
+                        System.out.print("*");
+                    } else {
+                        System.out.print(" ");
+                    }
+                }
+            }
+            if (i < n) k++;
+            else k--;
+            System.out.println();
+        }
+    }
+
 }

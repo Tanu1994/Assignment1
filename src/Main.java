@@ -28,5 +28,15 @@ public class Main {
         System.out.println("Printing an isosceles triangle");
         test.printIsoscelesTriangle(5);
         System.out.println();
+
+        //Diamond
+        System.out.println("Print a diamond");
+        test.printDiamond(5);
+        System.out.println();
+
+        //Diamond With Name
+        System.out.println("Print a diamond with the name in the middle");
+        test.printDiamondWithName(3);
+        System.out.println();
     }
 }
