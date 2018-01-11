@@ -103,4 +103,17 @@ public class Assignment1 {
         }
     }
 
+    public void generate(int n){
+        boolean prime;
+        for (int i = 2; i <= n/2; i++) {
+            prime = true;
+            for (int j = 2; j < i; j++) {
+                if (i % j == 0) prime = false;
+            }
+            if ((n % i == 0) && prime) {
+                    System.out.print(i + " ");
+            }
+        }
+    }
+
 }

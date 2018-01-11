@@ -42,5 +42,9 @@ public class Main {
         //FizzBuzz
         test.FizzBuzz();
         System.out.println();
+
+        //Generate
+        test.generate(30);
+        System.out.println();
     }
 }
