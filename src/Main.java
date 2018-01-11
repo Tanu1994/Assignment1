@@ -23,5 +23,10 @@ public class Main {
         System.out.println("Printing a right triangle");
         test.printRightTriangle(5);
         System.out.println();
+
+        //Isosceles Triangle
+        System.out.println("Printing an isosceles triangle");
+        test.printIsoscelesTriangle(5);
+        System.out.println();
     }
 }
