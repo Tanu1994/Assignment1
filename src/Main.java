@@ -38,5 +38,9 @@ public class Main {
         System.out.println("Print a diamond with the name in the middle");
         test.printDiamondWithName(3);
         System.out.println();
+
+        //FizzBuzz
+        test.FizzBuzz();
+        System.out.println();
     }
 }
