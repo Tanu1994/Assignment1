@@ -40,10 +40,12 @@ public class Main {
         System.out.println();
 
         //FizzBuzz
+        System.out.println("Fizz Buzz Exercise");
         test.FizzBuzz();
         System.out.println();
 
         //Generate
+        System.out.println("The Generate Method");
         test.generate(30);
         System.out.println();
     }
